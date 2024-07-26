@@ -8,7 +8,7 @@ This is a responsive "Coming Soon" page for the Ping service, built using HTML, 
 
 ## Demo
 
-You can view the live demo [here](https://your-live-demo-link.com).
+You can view the live demo [here](https://snazzy-chimera-7c81d4.netlify.app/).
 
 ## Features
 
