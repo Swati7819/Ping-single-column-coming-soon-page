@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 700px;
+    margin-inline: auto;
+    margin-block: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.container header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.container header h1 span {
+    color: rgb(77, 123, 243);
+}
+
+.container header .text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.container header section .launch-text {
+    color: rgb(184, 184, 184);
+    font-size: 3rem;
+}
+
+.container header section .launch-text span {
+    font-weight: 700;
+    color: black;
+}
+
+.container header section .subscribe-text {
+    font-size: 1.2rem;
+
+}
+
+.container header .email {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+}
+
+.container header .email .validEmail {
+    outline: 0;
+    border: 1px solid rgb(224, 228, 240);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-block: 1rem;
+    border-radius: 3rem;
+    color: rgb(224, 228, 240);
+}
+
+.container header .email input {
+    width: 25rem;
+}
+
+.container header .email input::placeholder {
+    color: rgb(224, 228, 240);
+
+}
+
+.container header .email input:focus {
+    color: black;
+    font-weight: 500;
+}
+
+
+.container header .email button {
+    border: 0;
+    background-color: rgb(77, 123, 243);
+    color: white;
+    padding-block: 1rem;
+    padding-inline: 3rem;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+
+.container header .email button:hover {
+    background-color: rgb(113, 149, 245);
+}
+
+.container main {
+    width: 100%;
+}
+
+.container main img {
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    color: rgb(224, 228, 240);
+}
+
+footer .icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+
+
+
+
+}
+
+footer .icon img {
+    width: 2.5rem;
+    border: 1px solid rgb(224, 228, 240);
+    padding: 0.4rem;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+/* errorclass */
+
+.errorClass {
+    outline: 1px solid red;
+    border: 1px solid red;
+    padding-left: 3rem;
+    padding-right: 8rem;
+    padding-block: 1rem;
+    border-radius: 3rem;
+    color: rgb(224, 228, 240);
+}
+
+.error-text {
+    color: red;
+    margin-top: -1.5rem;
+    margin-left: -12rem;
+    font-size: 14px;
+    font-style: italic;
+}
+
+
+
+@media (max-width:610px) {
+
+    .container header section .launch-text {
+        font-size: 2rem;
+    }
+
+    .container header .email {
+        flex-direction: column;
+    }
+}
