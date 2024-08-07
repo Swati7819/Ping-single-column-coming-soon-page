@@ -123,12 +123,9 @@ footer .icon {
     align-items: center;
     gap: 2rem;
 
-
-
-
 }
 
-footer .icon img {
+footer .icon a img {
     width: 2.5rem;
     border: 1px solid rgb(224, 228, 240);
     padding: 0.4rem;
@@ -162,10 +159,26 @@ footer .icon img {
 @media (max-width:610px) {
 
     .container header section .launch-text {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .container header .email {
         flex-direction: column;
     }
+
+    .error-text {
+        margin-top: -8rem;
+        margin-left: -4rem;
+        
+    }
+
+    .container header .email button {
+        margin-top: 40px;
+    }
+
+    .container header .email input {
+        max-width: 300px;
+    }
+
+
 }
